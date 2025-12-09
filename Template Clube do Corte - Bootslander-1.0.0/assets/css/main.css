@@ -85,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: var(--default-color);
   font-family: var(--heading-font);
 }
 
@@ -776,7 +776,7 @@ section,
 }
 
 .section-title div {
-  color: var(--heading-color);
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin: 0;
   margin: 0;
   font-size: 28px;
@@ -1027,6 +1027,7 @@ section,
 
 .about .content .read-more:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--default-color);
   padding-right: 19px;
 }
 
@@ -1054,22 +1055,24 @@ section,
   line-height: 0;
   transition: all 0.4s ease-out 0s;
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
-  color: var(--accent-color);
+  color: var(--background-color);
 }
 
 .about .icon-box h3 {
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
+  color: var(--contrast-color);
 }
 
 .about .icon-box p {
   margin-bottom: 0;
+  color: var(--contrast-color);
 }
 
 .about .icon-box:hover i {
   background-color: var(--accent-color);
-  color: var(--contrast-color);
+  color: var(--background-color);
 }
 
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
@@ -1109,6 +1112,7 @@ section,
   padding: 0;
   line-height: 1;
   font-size: 16px;
+  /* color: var(--default-color); */
 }
 
 .features .features-item h3 a {
