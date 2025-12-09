@@ -42,15 +42,15 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4f5fe;
-  --surface-color: #ffffff;
+  --background-color: #17181d;
+  --surface-color: #374254;
 }
 
 .dark-background {
-  --background-color: #08005e;
-  --default-color: #ffffff;
+  --background-color: #17181d;
+  --default-color: #ececec;
   --heading-color: #ffffff;
-  --surface-color: #0c0091;
+  --surface-color: #e09145;
   --contrast-color: #ffffff;
 }
 
@@ -178,7 +178,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #10058c;
+  --background-color: #292c35;
 }
 
 /*--------------------------------------------------------------
