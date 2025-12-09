@@ -935,6 +935,7 @@ section,
   animation: move-forever3 6s linear infinite;
   animation-delay: -2s;
   fill: var(--background-color);
+  opacity: 0.2;
 }
 
 @keyframes move-forever1 {
