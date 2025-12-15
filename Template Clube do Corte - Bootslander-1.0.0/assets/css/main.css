@@ -1088,6 +1088,10 @@ section,
   }
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
@@ -1508,10 +1512,11 @@ section,
 }
 
 .pricing ul i {
-  color: #059652;
+  color: var(--accent-color);
   font-size: 24px;
   padding-right: 3px;
 }
+
 
 .pricing ul .na {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
@@ -1760,3 +1765,35 @@ section,
 /* .starter-section {
   /* Add your styles here 
 }
+
+/* Fundo branco e textos ajustados na seção Detalhes (Benefícios) */
+#details {
+  background-color: #ffffff;
+  color: #292c35; 
+}
+
+/* Títulos da seção (Detalhes / Confira nossos Benefícios) */
+#details .section-title h2,
+#details .section-title .description-title,
+#details .section-title span {
+  color: #292c35; 
+}
+
+/* Títulos dos benefícios (h3) */
+#details h3 {
+  color: #374254; 
+}
+
+/* Texto em itálico e listas: levemente mais escuros */
+#details p,
+#details .fst-italic,
+#details li span {
+  color: #374254;
+}
+
+/* Bordas arredondadas para a imagem da seção FAQ */
+#faq img {
+  border-radius: 20px; 
+}
+
+
